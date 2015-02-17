@@ -13,7 +13,7 @@
 {
     UIImagePickerController *ipc;
     GPUImageStillCamera *stillCamera;
-    GPUImageFilter *customFilter;
+    GPUImageToonFilter *customFilter;
     GPUImageView *image;
     GPUImagePicture *image_p;
 

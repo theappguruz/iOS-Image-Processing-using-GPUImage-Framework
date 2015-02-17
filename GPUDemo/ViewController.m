@@ -51,7 +51,7 @@
     UIImage *inputImage=[info objectForKey:UIImagePickerControllerOriginalImage];
     image_p=[[GPUImagePicture alloc]initWithImage:inputImage];
 
-    GPUImageSketchFilter *filter1=[[GPUImageSketchFilter alloc]init];
+    GPUImageToonFilter *filter1=[[GPUImageToonFilter alloc]init];;
     [image_p addTarget:filter1];
     [image_p processImage];
     
